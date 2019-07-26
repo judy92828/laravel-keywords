@@ -1,0 +1,26 @@
+{
+  "name": "jingjing/laravel-keywords",
+  "description": "文章或者字符串违禁词查询",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "违禁词",
+    "禁词",
+    "静静"
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "authors": [
+    {
+      "name": "静静",
+      "email": "68386545@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JingJing\\Keywords\\": "./src/",
+      "JingJing\\Keywords\\Test\\": "./test/"
+    }
+  }
+}
